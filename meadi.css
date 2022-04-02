@@ -83,6 +83,10 @@
         color: #000;
     }
 }
+@media (max-width:610px){
+    #navbar{
+        display: none;
+    }
 }
 
 
@@ -127,5 +131,48 @@
 
     #hero p{
         color: #000;
+    }
+}
+
+@media (max-width:420px){
+    #sm-banner .banner-box{
+        height: 15vh;
+    }
+
+    #sm-banner h2{
+        font-size: 12px;
+    }
+
+    #sm-banner h4{
+        font-size: 14px;
+    }
+
+    #sm-banner span{
+        font-size: 12px;
+    }
+
+    button.normal{
+         font-size: 9px;
+        font-weight: 600;
+        padding: 8px 5px
+    }
+
+    #feature{
+        justify-content: center;
+    }
+
+    #hero h1{
+        font-size: 46px;
+        color: #00a67f;
+        line-height: 60px;
+        font-weight: 300;
+    }
+
+    h2{
+        color: #000;
+    }
+
+    h4{
+        color: #00a67f;
     }
 }
